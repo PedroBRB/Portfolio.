@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro Borba - Desenvolvedor Front-end Júnior </title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <link rel="stylesheet" href="src/css/variaveis.css">
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+
+  <!-- Seções -->
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/home.css">
+  <link rel="stylesheet" href="src/css/sobre.css">
+  <link rel="stylesheet" href="src/css/habilidades.css">
+  <link rel="stylesheet" href="src/css/projetos.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">PB</h1>
+        </a>
+
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Pedro Borba</h1>
+          <h2>Desenvolvedor Front-end Júnior</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/dev-pedro-brb/" class="outer-shadow">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+            <a href="https://wa.me/5581998646350" class="outer-shadow">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/PedroBRB" class="outer-shadow">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/pedroborba__/" class="outer-shadow">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/Foto de perfil.png" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/Foto de perfil.png" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Pedro Borba e sou um desenvolvedor frontend em
+              formação!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries,  animes e doguinhos(tenho um Golden). 
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="src/arquivos/cv.pdf" class="botao outter-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-habilidades row">
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-javascript-plain"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>Tenho uma boa base do JS. Já entendo bem conceitos como callbacks, promisses, async/await, consumo de APIs, destructuring, spread operators, conhecimento de bibliotecas e frameworks como React e dentre outros. </p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-html5-plain-wordmark"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p>Estruturação de Conteúdo: Proficiente em HTML5, capaz de criar estruturas semânticas e acessíveis para websites e aplicações web, utilizando elementos como header, footer, article, section, entre outros.
+          Formulários e Validação: Experiência na criação de formulários interativos com validação de entrada, utilizando atributos HTML5 como required, pattern, e type para melhorar a experiência do usuário..</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-css3-plain-wordmark"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p>Estilização Avançada: Proficiência em CSS3, incluindo o uso de seletores avançados, propriedades de layout (como Flexbox e Grid) e técnicas de estilização para criar interfaces atraentes e responsivas.
+          Animações e Transições: Capacidade de implementar animações e transições suaves utilizando propriedades CSS3, melhorando a interatividade e a experiência do usuário.
+          Design Responsivo: Experiência em criar layouts responsivos que se adaptam a diferentes tamanhos de tela, utilizando media queries e frameworks como Bootstrap ou Tailwind CSS.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-github-original"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p>Controle de Versão: Familiaridade com Git e GitHub para gerenciar versões de projetos, permitindo rastrear alterações, colaborar com outros desenvolvedores e manter um histórico claro do desenvolvimento.
+          Colaboração em Projetos: Experiência em trabalhar em equipe utilizando GitHub, incluindo a criação de branches, pull requests e resolução de conflitos, facilitando a colaboração em projetos de desenvolvimento.
+          Documentação e Gerenciamento de Projetos: Habilidade em utilizar recursos do GitHub, como issues e wikis, para documentar projetos, gerenciar tarefas e acompanhar o progresso do desenvolvimento.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-git-plain"></i>
+        </div>
+        <h3>Git</h3>
+        <p> Resolução de Conflitos:
+          Habilidade em identificar e resolver conflitos de merge de forma eficaz, garantindo a integridade do código e a continuidade do desenvolvimento.
+          Commits e Mensagens:
+          Prática em realizar commits frequentes e significativos, utilizando mensagens claras e descritivas que documentam as alterações realizadas.
+          Tags e Releases:
+          Conhecimento em criar tags para marcar versões específicas do projeto, facilitando o gerenciamento de releases e a manutenção de versões estáveis.
+          Histórico e Análise de Alterações:
+          Capacidade de utilizar comandos como git log, git diff e git blame para analisar o histórico de alterações e entender a evolução do código.
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus Projetos</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-projetos container">
+      <div class="projeto">
+        <a href="#">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 1">
+          <h3>Projeto 1</h3>
+          <div class="informacoes-projeto">
+            <p> em progresso...</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="#">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 2">
+          <h3>Projeto 2</h3>
+          <div class="informacoes-projeto">
+            <p> em progresso...</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="#">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 3">
+          <h3>Projeto 3</h3>
+          <div class="informacoes-projeto">
+            <p> em progresso...</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="#">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 4">
+          <h3>Projeto 4</h3>
+          <div class="informacoes-projeto">
+            <p>em progresso...</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/dev-pedro-brb/" class="outer-shadow">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+        <a href="https://wa.me/5581998646350" class="outer-shadow">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+        <a href="https://github.com/PedroBRB" class="outer-shadow">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/pedroborba__/" class="outer-shadow">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
